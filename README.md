@@ -1,9 +1,9 @@
 # scripts_and_libs
 Various custom scripts and libraries
 
-# tiny zsh ip manipulation lib
+### tiny zsh ip manipulation lib
 ```
-#!/usr/bin/zsh'
+#!/usr/bin/zsh
 
 # return array containing individual octets for input
 #  getocs 10.1.16.0
