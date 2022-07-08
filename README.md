@@ -2,7 +2,8 @@
 Various custom scripts and libraries
 
 # tiny zsh ip manipulation lib
-`#!/usr/bin/zsh
+```
+#!/usr/bin/zsh'
 
 # return array containing individual octets for input
 #  getocs 10.1.16.0
@@ -65,4 +66,5 @@ last() {
 first() {
     local ip=$1 subnet=$2
     dec2ip $(( $(ip2dec $subnet) & $(ip2dec $ip) ))
-}`
+}
+```
